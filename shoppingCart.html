@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="cartstyle.css">
+    <script src="script.js"></script>
+    <title>سلة التسوق</title>
+    <script src="https://kit.fontawesome.com/20bff64e44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo_img"><img src="img/logo.jpg" class="logo_img"> </div>
+        <div class="user-actions">
+           <a href="login.html"> <i class="fa-regular fa-user"></i></a>
+           <a href="shoppingCart.html"> <i class="fa-solid fa-cart-shopping"></i></a></i>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">الصفحة الرئيسية</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#products">خدماتنا</a></li>
+            <li><a href="#footer">روابط مباشرة</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <div class="container-fluid mt-5">
+            <h2 class="mb-5 text-center">سلة التسوق</h2>
+            <br>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="table-responsive">
+                        <table id="myTable" class="table">
+                            <thead>
+                                <tr>
+                                    <th>الخدمة</th>
+                                    <th>الاسم</th>
+                                    <th>الكمية</th>
+                                    <th>السعر</th>
+                                    <th class="text-right">
+                                        <span id="amount" class="amount">الكمية</span>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src="img/img1.jpg">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>عباية كلاسيك بدقات وردي  </p>
+                                    </td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value="259 ريال" class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">ريال <span id="amount" class="amount">0</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src="img/img2.jpg">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>عباية شتوية صفراء </p>
+                                    </td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value="400 ريال" class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">ريال <span id="amount" class="amount">0</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src="img/img3.jpg">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>عباية كلاسيك أبيض</p>
+                                    </td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value="320 ريال" class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">ريال <span id="amount" class="amount">0</span></td>
+                                </tr><tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src="img/img6.jpg">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>عباية كلاسك جاكار فاخرة</p>
+                                    </td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value="300 ريال" class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">ريال <span id="amount" class="amount">0</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src=" ">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>   </p>
+                                    </td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value=" " class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">ريال <span id="amount" class="amount">0</span></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="4"></td>
+                                    <td align="right"><strong>المجموع = <span id="total" class="total">0</span> ريال</strong></td>
+                                </tr>
+                                
+                                
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="text-center mt-3">
+                    <a href="payment.html" class="btn btn-primary">ادفع الآن</a>
+                </div>
+            </div>
+        </div>
+        
+
+    </main>
+    <footer id="footer">
+
+        <section class="footer">
+            <div class="box-container">
+    
+                <div class="box">
+    
+                    <h3> روابط مباشرة</h3>
+                    <a href="index.html">الصفحة الرئيسية</a>
+                    <a href="#about">من نحن؟</a>
+                    <a href="#products">خدماتنا</a>
+                </div>
+
+                <div class="box">
+                    <h3>روابط إضافية</h3>
+                    <a href="login.html">تسجيل الدخول</a>
+                    <a href="signup.html">تسجيل جديد</a>
+                    <a href="shoppingCart.html">عربة التسوق</a>
+
+                    <br>
+                    <p>&copy; 2023 جميع الحقوق محفوظة</p>
+
+                </div>
+
+                <div class="box">
+                    <h3>معلومات التواصل</h3>
+                    <a href="#">+966549732852</a>
+                    <a href="#">almasal@gmail.com</a>
+                    <a href="#">   المملكة العربية السعودية - الرياض - أسواق الأندلس.</a>
+                </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>

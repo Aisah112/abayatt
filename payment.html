@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="prostyle.css">
+    <script src="script.js"></script>
+    <title>صفحة الدفع</title>
+    <script src="https://kit.fontawesome.com/20bff64e44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo_img"><img src="img/logo.jpg" class="logo_img"> </div>
+        <div class="user-actions">
+           <a href="login.html"> <i class="fa-regular fa-user"></i></a>
+           <a href="shoppingCart.html"> <i class="fa-solid fa-cart-shopping"></i></a></i>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">الصفحة الرئيسية</a></li>
+            <li><a href="index.html#about">من نحن</a></li>
+            <li><a href="index.html#products">خدماتنا</a></li>
+            <li><a href="#footer">روابط مباشرة</a></li>
+        </ul>
+    </nav>
+    <main>
+        <br>
+        <br>
+        <div class="payment-form">
+            <h2>معلومات الدفع</h2>
+            <form id="paymentForm">
+                <div class="form-group">
+                    <label for="cardNumber">رقم البطاقة الائتمانية:</label>
+                    <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" >
+                </div>
+                <div class="form-group">
+                    <label for="expiryDate">تاريخ الانتهاء:</label>
+                    <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" >
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="123" >
+                </div>
+               <button type="submit"><a href="thankyou.html">الدفع</button></a>
+            </form>
+        </div>
+    </main>
+    <footer id="footer">
+
+        <section class="footer">
+            <div class="box-container">
+    
+                <div class="box">
+    
+                    <h3> روابط مباشرة</h3>
+                    <a href="index.html">الصفحة الرئيسية</a>
+                    <a href="index.html#about">من نحن؟</a>
+                    <a href="index.html#products">خدماتنا</a>
+                </div>
+
+                <div class="box">
+                    <h3>روابط إضافية</h3>
+                    <a href="login.html">تسجيل الدخول</a>
+                    <a href="signup.html">تسجيل جديد</a>
+                    <a href="shoppingCart.html">عربة التسوق</a>
+
+                    <br>
+                    <p>&copy; 2023 جميع الحقوق محفوظة</p>
+
+                </div>
+
+                <div class="box">
+                    <h3>معلومات التواصل</h3>
+                    <a href="#">+966549732852</a>
+                    <a href="#">almasal@gmail.com</a>
+                    <a href="#">   المملكة العربية السعودية - الرياض - أسواق الأندلس.</a>
+                    <img src="imges/payment.png" alt="">
+                </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

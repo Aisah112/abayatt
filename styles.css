@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    padding-bottom: 12%;
+    background-color: #FDD7E4;
+    color: #FDD7E4;
+}
+
+.fa-user{
+    font-size: 40px;
+}
+
+.fa-cart-shopping{
+    font-size: 35px;
+}
+
+
+.logo_img{
+    width: 280px;
+    height: 270px;
+    padding-right: -800px;
+    margin-bottom: -200px;
+    margin-top: -7%;
+    padding-bottom: 10%;
+}
+
+
+.user-actions a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Style the navigation */
+nav {
+    background-color: #000000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-size: 25px;
+
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+    text-align: center;
+    background-image: url("imges/22.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center; 
+    padding-bottom: 10%;
+    background-color: #fff;
+}
+
+.about {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.products {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+}
+
+.products h2{
+    color: fff;
+    font-size: 20px;
+}
+
+
+.product {
+    width: 330px;
+    height: 395px; ;
+    margin: 10px;
+    padding: 3px;
+    border: 1px double #fff;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+
+.product img {
+    width: 100%;
+    height: 80%;
+    border-top-right-radius:5px ;
+    border-top-left-radius:10px ;
+    padding: 10px;
+}
+
+.product-description{
+    background-color: #FDD7E4;
+    padding:18px;
+    padding-top: 20px;
+    border: 1px solid #ddd ;
+    border-radius: 1px;
+    font-size: 14px;
+    color: #333;
+    margin-top: -14px;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+
+
+
+/* في ملف styles.css */
+.payment-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px; /* للفصل بين الزرين */
+    transition: background-color 0.3s; /* تغيير لون الخلفية بسرعة عند التفاعل */
+}
+
+.payment-button:hover {
+    background-color: #0056b3;
+}
+
+.payment-button:active {
+    background-color: #040404; /* لون مختلف عند النقر على الزر */
+}
+
+/* في ملف styles.css */
+/* تنسيق الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* تنسيق حقول الكمية */
+input[type="number"] {
+    width: 40px;
+    text-align: center;
+}
+
+/* تنسيق زر الدفع */
+.payment-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    transition:0.3s;
+}
+
+.payment-button:hover {
+    background-color: #0056b3;
+}
+
+.payment-button:active {
+    background-color: #004080;
+}
+
+/* تصميم زر الدفع */
+.payment-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.payment-button:hover {
+    background-color: #0056b3;
+}
+
+.payment-button:active {
+    background-color: #004080;
+}
+
+
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h3 {
+    margin: 0;
+}
+
+.total {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.shoppingCart-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shoppingCart-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #6e6d6d;
+    color: #000000;
+    font-size: 40px;
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.6rem;
+}
+
+.footer .box-container .box{
+    flex:1 1 25rem;
+}
+
+.footer .box-container .box h3{
+    color:#ffffff;
+    font-size: 30px;
+    padding:1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    color:#000000;
+    font-size: 30px;
+    padding:10px;
+}
+
+.footer .box-container .box a:hover{
+    text-decoration: underline;
+}
+
+.footer .box-container .box  img{
+    margin-top: 10px;
+    width: 70%;
+}
+
+.footer .credit {
+    text-align: center;
+    padding:1.5rem;
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:#000000;
+    border-top: .1rem solid rgba(75, 69, 109, 0.1);
+}
+
+.footer .credit span{
+    color:var(--blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
